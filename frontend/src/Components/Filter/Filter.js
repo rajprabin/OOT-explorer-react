@@ -79,7 +79,7 @@ const FilterForm = ({ onFilterChange }) => {
 				<select
 					id="mySelect"
 					name="end_year"
-					value={filters.end_year + 1}
+					value={filters.end_year}
 					onChange={handleInputChange}
 				>
 					{yearOptions
